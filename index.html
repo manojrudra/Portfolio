@@ -304,7 +304,6 @@
                     <input type="Name"   placeholder="Enter your Name" required>
                     <input type="Email" placeholder="Enter your email" required>
                     <input type="Number"  placeholder="Enter your Mobile no."required>
-                    <input type="Subject"  placeholder="Enter your Suject">
                     <textarea name="Mesage" id="" cols="40" row="10" placeholder="Enter your Message" required></textarea>        
                     <input type="submit" value="submit" class="send">
                 </form>
@@ -319,7 +318,6 @@
                             Password : "rudra535",
                             To :'rudramohanty535@gmail.com',
                             From : document.getElementById("email").value,
-                            Subject : "New Contact from Enquiry",
                             Body : "And this is the body"
                         }).then(
                         message => alert(message)
